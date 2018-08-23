@@ -19,15 +19,24 @@
 	opacity: 0;
 	transform: scale(0.723);
 	transition: all 0.2s ease 0s;
+	-webkit-transition: all 0.2s ease 0s;
+	-moz-transition: all 0.2s ease 0s;
+	-ms-transition: all 0.2s ease 0s;
 }
 .pic-box:hover .pic {
 	opacity: 0;
 	transition: all 0.2s ease 0.1s;
+	-webkit-transition: all 0.2s ease 0.1s;
+	-moz-transition: all 0.2s ease 0.1s;
+	-ms-transition: all 0.2s ease 0.1s;
 }
 .pic-box:hover .back-txt  {
 	opacity: 1;
 	transform: scale(1);
 	transition: all 0.2s ease 0.2s;
+	-webkit-transition: all 0.2s ease 0.2s;
+	-moz-transition: all 0.2s ease 0.2s;
+	-ms-transition: all 0.2s ease 0.2s;
 }
 .pic,
 .pic-bg,
@@ -42,14 +51,23 @@
 .front-txt {
 	opacity: 1;
 	transition: all 0.2s ease 0.2s;
+	-webkit-transition: all 0.2s ease 0.2s;
+	-moz-transition: all 0.2s ease 0.2s;
+	-ms-transition: all 0.2s ease 0.2s;
 }
 .pic {
 	transition: all 0.2s ease 0.1s;
+	-webkit-transition: all 0.2s ease 0.1s;
+	-moz-transition: all 0.2s ease 0.1s;
+	-ms-transition: all 0.2s ease 0.1s;
 }
 .back-txt {
 	opacity: 0;
 	transform: scale(1.382);
 	transition: all 0.2s ease 0s;
+	-webkit-transition: all 0.2s ease 0s;
+	-moz-transition: all 0.2s ease 0s;
+	-ms-transition: all 0.2s ease 0s;
 }
 .front-title {
 	position: absolute;
