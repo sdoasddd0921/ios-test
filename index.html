@@ -26,36 +26,18 @@
 .pic-box:hover .front-txt {
 	display: none;
 	opacity: 0;
-	-webkit-opacity: 0;
-	-moz-opacity: 0;
-	-ms-opacity: 0;
 	transform: scale(0.723);
 	transition: all 0.2s ease 0s;
-	-webkit-transition: all 0.2s ease 0s;
-	-moz-transition: all 0.2s ease 0s;
-	-ms-transition: all 0.2s ease 0s;
 }
 .pic-box:hover .pic {
 	display: none;
 	opacity: 0;
-	-webkit-opacity: 0;
-	-moz-opacity: 0;
-	-ms-opacity: 0;
 	transition: all 0.2s ease 0.1s;
-	-webkit-transition: all 0.2s ease 0.1s;
-	-moz-transition: all 0.2s ease 0.1s;
-	-ms-transition: all 0.2s ease 0.1s;
 }
 .pic-box:hover .back-txt  {
 	opacity: 1;
-	-webkit-opacity: 1;
-	-moz-opacity: 1;
-	-ms-opacity: 1;
 	transform: scale(1);
 	transition: all 0.2s ease 0.2s;
-	-webkit-transition: all 0.2s ease 0.2s;
-	-moz-transition: all 0.2s ease 0.2s;
-	-ms-transition: all 0.2s ease 0.2s;
 }
 .pic,
 .pic-bg,
@@ -69,30 +51,15 @@
 }
 .front-txt {
 	opacity: 1;
-	-webkit-opacity: 1;
-	-moz-opacity: 1;
-	-ms-opacity: 1;
 	transition: all 0.2s ease 0.2s;
-	-webkit-transition: all 0.2s ease 0.2s;
-	-moz-transition: all 0.2s ease 0.2s;
-	-ms-transition: all 0.2s ease 0.2s;
 }
 .pic {
 	transition: all 0.2s ease 0.1s;
-	-webkit-transition: all 0.2s ease 0.1s;
-	-moz-transition: all 0.2s ease 0.1s;
-	-ms-transition: all 0.2s ease 0.1s;
 }
 .back-txt {
 	opacity: 0;
-	-webkit-opacity: 0;
-	-moz-opacity: 0;
-	-ms-opacity: 0;
 	transform: scale(1.382);
 	transition: all 0.2s ease 0s;
-	-webkit-transition: all 0.2s ease 0s;
-	-moz-transition: all 0.2s ease 0s;
-	-ms-transition: all 0.2s ease 0s;
 }
 .front-title {
 	position: absolute;
@@ -138,9 +105,9 @@
 </style>
 </head>
 <body >
-	<h1>hello 10</h1>
+	<h1>hello 11</h1>
 	<div id="test">
-		<div class="home-four-pic" ontouchstart>
+		<div class="home-four-pic">
 			<div class="pic-box">
 				<img class="pic-bg" src="https://qlink-1256737511.file.myqcloud.com/2018/website-qlink/static/images/four-pic-back-1.png" alt="">
 				<img class="pic" src="https://qlink-1256737511.file.myqcloud.com/2018/website-qlink/static/images/four-pic-bg-1.png" alt="">
@@ -158,5 +125,8 @@
 			</div>
 		</div>
 	</div>
+	<script>
+		document.body.addEventListener('touchstart',function(){});
+	</script>
 </body>
 </html>
