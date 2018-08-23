@@ -124,3 +124,6 @@
 .ttt:hover {
 	background: blue;
 }
+.out-box {
+	overflow: hidden;
+}
