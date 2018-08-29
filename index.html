@@ -105,7 +105,7 @@
 </style>
 </head>
 <body >
-	<h1>hello 11</h1>
+	<h1>share test</h1>
 	<div id="test">
 		<div class="home-four-pic">
 			<div class="pic-box">
@@ -125,8 +125,16 @@
 			</div>
 		</div>
 	</div>
+	<script src="https://ossweb-img.qq.com/images/js/TGMobileShare/TGMobileShare.min.js"></script>
 	<script>
 		document.body.addEventListener('touchstart',function(){});
+		
+		TGMobileShare({
+			shareTitle: 'demo标题',
+			shareDesc: 'demo discription',
+			shareImgUrl: 'https://www.free-icons-download.net/images/tencent-logo-icon-92199.png',
+			actName: 'a20151127tgmsdemo'
+		});
 	</script>
 </body>
 </html>
