@@ -3,8 +3,8 @@ var agent = navigator.userAgent;
 var computed = false;
 
 const ua = navigator.userAgent.toLowerCase();
-const isWx = ua.match(/MicroMessenger/i) == 'micromessenger';
-const isQQ = !!ua.match(/mqqbrowser|qzone|qqbrowser/i);
+const isWx = (/MicroMessenger/i).test(ua);
+const isQQ = (/mqqbrowser|qzone|qqbrowser/i).test(ua);
 if (isWx || isQQ) {
 	computed = true;
 }
